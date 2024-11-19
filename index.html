@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Geolocation-Based Landmarks</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <button id="share">Share my location</button>
+
+        <pre id="result"></pre>
+
+        <h2 id="landmarks-title">Landmarks near you</h2>
+
+        <div id="landmarks">
+            <!-- Cards for landmarks, initially showing "Lagos" -->
+            <div class="landmark-card">
+                <img src="images/hive1.png" alt="Lekki">
+                <p class="location-name">Lekki</p>
+                <p class="hotel-count">15 hotels recommended</p>
+            </div>
+            <!-- Repeat for other locations -->
+            <div class="landmark-card">
+                <img src="images/hive2.png" alt="Lekki">
+                <p class="location-name">Lekki</p>
+                <p class="hotel-count">15 hotels recommended</p>
+            </div>
+
+            <div class="landmark-card">
+                <img src="images/hive5.png" alt="Lekki">
+                <p class="location-name">Lekki</p>
+                <p class="hotel-count">15 hotels recommended</p>
+            </div>
+
+        </div>
+        
+        <div id="map" style="height: 400px; width: 100%;"></div>
+
+
+        
+        
+        <script src="script.js"></script>
+        <!-- <script src="script2.js"></script> -->
+        <!-- <script src="landmark.js"></script> -->
+    </body>
+    
+</html>
