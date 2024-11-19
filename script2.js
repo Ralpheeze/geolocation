@@ -50,7 +50,7 @@ function handleLocationError(error) {
 }
 
 function findHotelsNearLandmark(landmark) {
-    const nearbySearchUrl = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${landmark.lat},${landmark.lng}&radius=5000&type=lodging&key=${AIzaSyB8B50qczcFw08MgEXhSQvuOqVrkYSRyxY}`;
+    const nearbySearchUrl = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${landmark.lat},${landmark.lng}&radius=5000&type=lodging&key=${}`;
 
     fetch(nearbySearchUrl)
         .then(response => response.json())
