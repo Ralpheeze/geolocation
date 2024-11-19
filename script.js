@@ -1,3 +1,13 @@
+require('dotenv').config();
+
+
+
+// Access the BDC API key from the .env file
+const bdcApiKey = process.env.BDC_API_KEY;
+
+// Example: Logging the API key (avoid logging sensitive keys in production)
+// console.log("Your API Key:", apiKey);
+
 // const http = new XMLHttpRequest()
 // let result = document.querySelector("#result")
 

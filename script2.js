@@ -1,4 +1,8 @@
-const apiKey = 'AIzaSyB8B50qczcFw08MgEXhSQvuOqVrkYSRyxY';
+// Access the API key from the environment file
+const apiKey = process.env.GOOGLE_API_KEY;
+
+
+// const apiKey = 'AIzaSyB8B50qczcFw08MgEXhSQvuOqVrkYSRyxY';
 const landmarks = [
     { name: "University of Nigeria, Nsukka", lat: 6.86670, lng: 7.41152 },
     { name: "St Theresa's Cathedral, Nsukka", lat: 6.85148, lng: 7.39268 },
